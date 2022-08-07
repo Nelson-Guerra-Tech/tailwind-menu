@@ -7,13 +7,13 @@ function Navigation() {
       <div>
         <nav>
           <div>
-            <h1>
+            <h1 className='font-bold uppercase'>
               <Link to='/'>Food Ninja</Link>
             </h1>
           </div>
 
           <ul>
-            <li>
+            <li className='text-gray-800 font-bold'>
               <Link to='/'>
                 <span>Home</span>
               </Link>

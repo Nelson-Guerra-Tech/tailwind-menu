@@ -11,19 +11,19 @@ function Home() {
         <Link to='#'>Sign up</Link>
       </div>
 
-      <header>
-        <h2>Recipes</h2>
-        <h3>For Ninjas</h3>
+      <header className='text-gray-800'>
+        <h2 className='text-6xl font-semibold'>Recipes</h2>
+        <h3 className='text-2xl font-semibold'>For Ninjas</h3>
       </header>
 
       <div>
-        <h4>Latest Recipes</h4>
+        <h4 className='font-bold'>Latest Recipes</h4>
 
         <div>
           <Cards />
         </div>
 
-        <h4>Most Popular</h4>
+        <h4 className='font-bold'>Most Popular</h4>
         <div></div>
 
         <div>

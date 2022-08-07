@@ -7,8 +7,8 @@ import './index.css';
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
-      <div className='App'>
+      <div className='App text-gray-600'>
+        <Navigation />
         <Routes>
           <Route path='/' element={<Home />} exact />
         </Routes>
